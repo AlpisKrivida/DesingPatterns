@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="yes - Copy.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.0\Images\bluedot.png" />
+    <Content Include="bin\Debug\netcoreapp3.0\Images\bluetile.png" />
+    <Content Include="bin\Debug\netcoreapp3.0\Images\goldmine.png" />
+    <Content Include="bin\Debug\netcoreapp3.0\Images\grass.png" />
+    <Content Include="bin\Debug\netcoreapp3.0\Images\rock.png" />
+    <Content Include="bin\Debug\netcoreapp3.0\Images\test.png" />
+    <Content Include="bin\Debug\netcoreapp3.0\Images\test2.png" />
+    <Content Include="bin\Debug\netcoreapp3.0\Images\wonder.png" />
+    <Content Include="bin\Debug\netcoreapp3.0\Images\yellowdot.png" />
+    <Content Include="bin\Debug\netcoreapp3.0\Images\yellowtile.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lab1_1\Lab1_1.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp3.0\runtimes\" />
+    <Folder Include="obj\Debug\" />
+  </ItemGroup>
+
+</Project>
